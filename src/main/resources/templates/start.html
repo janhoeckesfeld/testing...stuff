@@ -1,0 +1,11 @@
+<html>
+<body>
+	<form method="post">
+		<input type="text" name="summand1" th:value="${s?.summand1}"> </input>
+		<input type="text" th:value="${s?.summand2}" name="summand2"> </input>
+		<input type="submit"></input>
+	</form>
+	<p  th:if="${s!=null}"
+		th:text="|Die Summe von ${s?.summand1} und ${s?.summand2} ist ${s.sum}, Typ von s ist ${s.class}|"></p>
+</body>
+</html>

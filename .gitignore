@@ -36,3 +36,9 @@ proguard/
 .gradle/
 build/
 bin/
+
+
+#Custom
+derby.log
+kunden
+*.properties

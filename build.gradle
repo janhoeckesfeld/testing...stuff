@@ -29,4 +29,8 @@ dependencies {
 	runtime('org.springframework.boot:spring-boot-devtools')
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+
+	compile 'com.jayway.jsonpath:json-path:2.2.0'
+	compile "javax.mail:mail:1.4"
+	compile 'org.apache.derby:derby:10.12.1.1'
 }
